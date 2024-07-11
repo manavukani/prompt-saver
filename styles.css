@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.prompt-item {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.prompt-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #f5f5f5;
+}
+
+.prompt-name {
+    font-weight: bold;
+}
+
+.prompt-preview {
+    font-size: 0.8em;
+    color: #666;
+}
+
+.expand-btn {
+    background-color: transparent;
+    border: none;
+    color: #333;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.prompt-content {
+    padding: 10px;
+}
+
+.prompt-content.hidden {
+    display: none;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.copy-btn {
+    background-color: #2196F3;
+}
+
+.delete-btn {
+    background-color: #FF9800;
+}
+
+.hidden {
+    display: none;
+}
