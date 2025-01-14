@@ -2,6 +2,9 @@
 
 Prompt Saver is a Chrome extension that allows users to save and manage frequently used prompts. This tool is perfect for writers, customer service representatives, or anyone who often uses repetitive text snippets in their daily work.
 
+![Prompt_Saver](https://github.com/user-attachments/assets/3fd04cb2-e243-41c6-b294-bf8ada5ba606)
+
+
 ## Features
 
 - Save custom prompts with a name and text content
